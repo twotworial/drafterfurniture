@@ -1,0 +1,68 @@
+{
+  "id": "/?source=pwa",
+  "name": "Drafter Furniture: Desain, Industri, dan Tips",
+  "short_name": "DrafterFurniture",
+  "description": "Artikel edukasi, jenis kayu, material & finishing, dan tutorial drafter furniture.",
+  "lang": "id-ID",
+  "dir": "ltr",
+  "start_url": "/?utm_source=manifest",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "categories": ["design", "home", "education", "technology"],
+  "icons": [
+    {
+      "src": "https://cdn.jsdelivr.net/gh/twotworial/drafterfurniture@main/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/twotworial/drafterfurniture@main/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/twotworial/drafterfurniture@main/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Edukasi",
+      "short_name": "Edukasi",
+      "url": "/search/label/Edukasi",
+      "description": "Artikel edukasi drafter furniture"
+    },
+    {
+      "name": "Jenis Kayu",
+      "short_name": "Kayu",
+      "url": "/search/label/Jenis%20Kayu",
+      "description": "Karakter dan penggunaan berbagai jenis kayu"
+    },
+    {
+      "name": "Material & Finishing",
+      "short_name": "Finishing",
+      "url": "/search/label/Material%20%26%20Finishing",
+      "description": "Material dan teknik finishing"
+    },
+    {
+      "name": "Tutorial",
+      "short_name": "Tutorial",
+      "url": "/search/label/Tutorial",
+      "description": "Langkah-langkah dan tips praktis"
+    }
+  ],
+  "prefer_related_applications": false,
+  "protocol_handlers": [
+    {
+      "protocol": "web+drafter",
+      "url": "/?q=%s"
+    }
+  ]
+}
